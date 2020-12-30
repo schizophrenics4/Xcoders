@@ -77,11 +77,14 @@ def asep_checker():
             os.remove('settings.py')
         elif delet == 'N':
             os.rename('settings.py', 'File_Udah_Gaguna.py')
+        import sub as Sb
         shel('rm -rf xncode.pyc')
         shel('rm -rf settings.pyc')
         shel('rm -rf main.pyc')
+        Sb.info()
         shel('rm -rf sub.pyc && clear')
         print '-'*88+'\n'+' '*18+'Installation %sDone%s, Please %sRun Again%s This Scripts !\n'%(G, W, P, W)+'-'*88
+
 
 
 
