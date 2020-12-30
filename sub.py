@@ -1,22 +1,24 @@
-
+# !/data/data/com.termux/files/home/Xcoders/sub.py
+# -*- coding: utf-8 -*-
 import re
-import xncode as x
+import xncode as xx
 import os
 import sys
+import time
 ans = (lambda a : raw_input(a))
 shell = (lambda x : os.system(x))
 X='<\033[1;31mX\033[1;37mcode>'
 
-case    = x.mycase
-encoder = x.encoders
-decoder = x.decoders
-encod   = x.encode
-decod   = x.decode
-exn     = x.ex_encode
-exd     = x.ex_decode
-myen    = x.myencoders
-hese    = x.hexec
-xbanner = x.xcode_banner
+case    = xx.mycase
+encoder = xx.encoders
+decoder = xx.decoders
+encod   = xx.encode
+decod   = xx.decode
+exn     = xx.ex_encode
+exd     = xx.ex_decode
+myen    = xx.myencoders
+hese    = xx.hexec
+xbanner = xx.xcode_banner
 
 enc_inf="    encoders(str, format, password)"
 Str='    string   : '
@@ -144,7 +146,7 @@ def hexec(s):
     hese(s)
 
 def Xcode_Path(code=False):
-    result=x.MPTH(x=True)
+    result=xx.MPTH(x=True)
     if result is None:
         print '    %s Something Went Wrong !'%(X); exit()
     print '    %s Trying To building encryption...'%(X); time.sleep(1)
