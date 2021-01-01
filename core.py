@@ -5,7 +5,7 @@ import sys
 import os
 import time
 import shutil
-import xncode
+import xcode
 import subprocess as SUB
 
 # //// SENGAJA SAYA BUAT RAPIH SEBISA SAYA, KARENA SUKA BANYAK YANG LIAT.
@@ -86,7 +86,7 @@ def end():
 def asep_checker():
     me = sts.write
     ans("    %s SEBELUM MEMULAI, BAHASA DI ALIHKAN KE BAHASA DEFAULT\n    Untuk Performa Yang Lebih Baik, Gunakan Ukuran Layar (88)\n    Atau Anda Dapat Mengatur Dengan Menempatkan\n    Ukuran Layar Agar Sejajar Dengan Garis Di Bawah !\n"%(X)+'-'*88+'\nTekan [ ENTER ] Untuk Melanjutkan !'); shel('clear')
-    xncode.xcode_banner()
+    xcode.xcode_banner()
     me('    Wellcome To Xcode...\n    ----------------------->>\n    Start Installation Time   : '); writes('%s:%s:%s  %s\n                                %s, %s-%s-%s'%(jam, men, det, time.tzname[1], day, tgl, bln, thn), 0.09)
     dev=[]
     # ANDA TAU GETPROP?? HADUHH ITU BAWAAN TERMUX.. HECK FACEBOOK MULU SII :V
@@ -132,7 +132,7 @@ def asep_checker():
 
 # MAAF DISINI SAYA GABUT, DAN KEHILANGAN INSPIRASI :(
 if __name__ == '__main__' and sys and os and time and True: # and a gila ya ? :v
-    if 1 + 7 != 9 and W and X and sts:
+    if 1 + 7 != 9 and W and X and sts and __file__ :
         basmalah = ans('    Tulis " BISMILLAHIRROHMANIRROHIM " Jangan Di Copas : ').upper()
         if basmalah == 'BISMILLAHIRROHMANIRROHIM':
             asep_checker()
