@@ -106,13 +106,13 @@ def asep_checker():
     me('    Security Path      : '); writes(dev[2], 0.09)
     me('    Region             : '); writes(dev[3], 0.09)
     me('    Connection         : '); writes(dev[8], 0.09)
-    print '\n'
+    print '\n'+'-'*88
     if dev[8] == 'false':
         print('\n    Harap Hidupkan Data Seluler Anda Untuk Menginstall Modul External'); time.sleep(1)
         ans('\n    Dan Tekan [ ENTER ] Untuk Melanjutkan')
     shel('pip2 install --upgrade pip && pip2 install uncompyle6')
     pip=subshel('pip2 list').split()
-    print '    Tring To Build Database...'
+    print '    Trying To Building Database...'+'\n'+'-'*88; time.sleep(2)
     count = 1
     # Kalo Percaya Gw Koding Dari Jam 2 - 2:50 Hapir 1 jam dapet 3 script
     # Eh Gataunya Benerin Errornya 4 Hari Gblg :(
@@ -125,6 +125,7 @@ def asep_checker():
             sys.stdout.write('\r%sX%sCODE Configuration.Modules : %s%s%s '%(R, W, U, x, W))
             sys.stdout.flush()
             time.sleep(0.1)
+    print '\n'+'-'*88
 
 
 
@@ -136,5 +137,7 @@ if __name__ == '__main__' and sys and os and time and True: # and a gila ya ? :v
         basmalah = ans('    Tulis " BISMILLAHIRROHMANIRROHIM " Jangan Di Copas : ').upper()
         if basmalah == 'BISMILLAHIRROHMANIRROHIM':
             asep_checker()
+            ans('    Please [ ENTER ] ')
+            os.system('clear')
             agus_checker()
             end()
