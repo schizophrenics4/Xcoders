@@ -19,7 +19,7 @@ dex="""
         Ukuran Path Aslinya :)
 
         Lets Growing And Coding...
-        Love You Beb, Ntar-Ntar Mampir Ya Ke : Rahayu *// 0857-5986-0998
+        Author Information : WhatsApp : 0857-5986-0998
 
 """
 hexec(dex)
